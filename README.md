@@ -138,9 +138,3 @@ IPAddress,Status,AvgResponseMs,PacketsSent,PacketsRecv,Timestamp
 * The script **does not require PowerShell 7**.
 * Make sure ICMP (ping) is allowed on the target devices; otherwise, they may appear offline.
 * For large lists, the script can take some time, as it pings each IP sequentially. (Parallel execution can be added in a future version.)
-
----
-
-I can also make a **slightly fancier version** of this README with **screenshots, usage tips, and a summary section** to make your GitHub repo look very polished.
-
-Do you want me to do that next?
