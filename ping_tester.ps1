@@ -2,8 +2,8 @@
 # Reliable Ping IPs from CSV (PS 5.1)
 # ===============================
 
-$InputCsv  = "C:\Users\Administrator\Desktop\Ping_Test\ips.csv"
-$OutputCsv = "C:\Users\Administrator\Desktop\Ping_Test\PingReport.csv"
+$InputCsv  = ".\ips.csv"
+$OutputCsv = ".\PingReport.csv"
 
 $PingCount = 3
 $Results = @()
@@ -55,3 +55,4 @@ foreach ($Entry in $IPs) {
 
 $Results | Export-Csv $OutputCsv -NoTypeInformation
 Write-Host "`nPing test complete. Report saved to $OutputCsv"
+
