@@ -1,7 +1,3 @@
-Absolutely! Here’s a professional and clear **Markdown README** you can drop into your GitHub repo. I’ve written it so that someone can understand the requirements, the CSV format, and how to run the script without needing to read the code.
-
----
-
 # Ping Tester Script
 
 A simple **PowerShell script** to ping a list of IP addresses from a CSV file and generate a detailed report of online/offline status with average response times.
